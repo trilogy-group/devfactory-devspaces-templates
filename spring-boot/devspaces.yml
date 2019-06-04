@@ -1,0 +1,17 @@
+name: spring-boot
+description: Environment for developing with Java, Spring and Gradle
+icon-file: java-logo-vector.png
+
+docker-file: SpringBoot_Dockerfile
+    
+ports:
+  - protocol: http
+    port-number: 8080
+    description: web app http port
+    
+sync-ignore: |
+  .git
+  .idea
+  **/node_modules
+  .DS_Store
+  .data

@@ -1,0 +1,11 @@
+# Pull alpine Linux image.
+FROM alpine:3.7
+
+# Install Python version 3.6.5
+RUN apk update
+RUN apk add python3=3.6.8-r0
+RUN apk add bash
+RUN ln -s /usr/bin/python3 /usr/bin/python
+
+# Bind port 8080
+EXPOSE  8080
