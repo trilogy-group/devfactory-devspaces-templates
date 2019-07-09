@@ -1,0 +1,33 @@
+{
+  "title": "Create a DevSpace",
+  "subTitle": "Choose how you would like to create your DevSpace",
+  "types": [{
+    "id": "template",
+    "summary": "Start with one of our templates",
+    "icon": "fa-file-text-o",
+    "highlightIcon": "",
+    "isClickable": true,
+    "url": "../template"
+  }, {
+    "id": "scratch",
+    "summary": "Start with a public Docker Image",
+    "icon": "fa-file-o",
+    "highlightIcon": "",
+    "isClickable": true,
+    "url": "../instructions/public"
+  }, {
+    "id": "dockerfile",
+    "summary": "Start with your private Dockerfile",
+    "icon": "fa-file",
+    "highlightIcon": "",
+    "isClickable": true,
+    "url": "../instructions/private"
+  }, {
+    "id": "kubernetes",
+    "summary": "Start with your Kubernetes configuration",
+    "icon": "fa-file-text-o",
+    "highlightIcon": "fa-rocket",
+    "isClickable": true,
+    "url": "../instructions/kubernetes"
+  }]
+}

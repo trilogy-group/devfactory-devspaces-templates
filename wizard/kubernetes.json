@@ -1,0 +1,177 @@
+{
+  "title": "Create a DevSpace from Kubernetes config",
+  "subTitle": "A DevSpace can be created from kubernetes configuration file using the command line interface",
+  "steps": [{
+      "stepNumber": 1,
+      "stepSummary": "Run Client",
+      "icon": "/assets/instructions/pic-step-linux-01.png",
+      "showOnOS": "linux",
+      "description": "Make sure the DevSpaces Client is running on your machine",
+      "commands": [],
+      "actionButton": {
+        "label": "Get Client",
+        "url": "/devspaces/download",
+        "relative": true
+      }
+    },
+    {
+      "stepNumber": 2,
+      "stepSummary": "Download configuration files ",
+      "icon": "/assets/instructions/pic-step-linux-02.png",
+      "showOnOS": "linux",
+      "description": "Download devspaces.yml and k8.yml files and put it in the root of your project",
+      "commands": [{
+        "description": "",
+        "command": "cd /your/project/root"
+      }],
+      "actionButton": {
+        "label": "Get Configuration Files",
+        "url": "kubernetes/devspaces.zip"
+      }
+    },
+    {
+      "stepNumber": 3,
+      "stepSummary": "Unzip the configuration files",
+      "icon": "/assets/instructions/pic-step-linux-02.png",
+      "showOnOS": "linux",
+      "description": "Unzip the configuration files files into the root of your project",
+      "commands": [],
+      "actionButton": {}
+    },
+    {
+      "stepNumber": 4,
+      "stepSummary": "Update configuration files",
+      "icon": "/assets/instructions/pic-step-linux-03.png",
+      "showOnOS": "linux",
+      "description": "Update devspaces.yml and k8.yml files, with the DevSpace details like name, docker image or Dockerfile, ports, environment variables, etc, using your favorite file editor",
+      "commands": [],
+      "actionButton": {}
+    },
+    {
+      "stepNumber": 5,
+      "stepSummary": "Create DevSpace",
+      "icon": "/assets/instructions/pic-step-linux-04.png",
+      "showOnOS": "linux",
+      "description": "Open a command line to your project root and run",
+      "commands": [{
+        "description": "",
+        "command": "devspaces create"
+      }],
+      "actionButton": {}
+    },
+    {
+      "stepNumber": 1,
+      "stepSummary": "Run Client",
+      "icon": "/assets/instructions/pic-step-macos-01.png",
+      "showOnOS": "macos",
+      "description": "Make sure the DevSpaces Client is running on your machine",
+      "commands": [],
+      "actionButton": {
+        "label": "Get Client",
+        "url": "/devspaces/download",
+        "relative": true
+      }
+    },
+    {
+      "stepNumber": 2,
+      "stepSummary": "Download configuration file ",
+      "icon": "/assets/instructions/pic-step-macos-02.png",
+      "showOnOS": "macos",
+      "description": "Download devspaces.yml and put it in the root of your project",
+      "commands": [{
+        "description": "",
+        "command": "cd /your/project/root"
+      }],
+      "actionButton": {
+        "label": "Get Configuration Files",
+        "url": "kubernetes/devspaces.zip"
+      }
+    },
+    {
+      "stepNumber": 3,
+      "stepSummary": "Unzip the configuration files",
+      "icon": "/assets/instructions/pic-step-macos-02.png",
+      "showOnOS": "macos",
+      "description": "Unzip the configuration files files into the root of your project",
+      "commands": [],
+      "actionButton": {}
+    },
+    {
+      "stepNumber": 4,
+      "stepSummary": "Update configuration files",
+      "icon": "/assets/instructions/pic-step-macos-03.png",
+      "showOnOS": "macos",
+      "description": "Update devspaces.yml and k8.yml files, with the DevSpace details like name, docker image or Dockerfile, ports, environment variables, etc, using your favorite file editor",
+      "commands": [],
+      "actionButton": {}
+    },
+    {
+      "stepNumber": 5,
+      "stepSummary": "Create DevSpace",
+      "icon": "/assets/instructions/pic-step-macos-04.png",
+      "showOnOS": "macos",
+      "description": "Open a command line to your project root and run",
+      "commands": [{
+        "description": "",
+        "command": "devspaces create"
+      }],
+      "actionButton": {}
+    },
+
+    {
+      "stepNumber": 1,
+      "stepSummary": "Run Client",
+      "icon": "/assets/instructions/pic-step-win-01.png",
+      "showOnOS": "windows",
+      "description": "Make sure the DevSpaces Client is running on your machine",
+      "commands": [],
+      "actionButton": {
+        "label": "Get Client",
+        "url": "/devspaces/download",
+        "relative": true
+      }
+    },
+    {
+      "stepNumber": 2,
+      "stepSummary": "Download configuration file ",
+      "icon": "/assets/instructions/pic-step-win-02.png",
+      "showOnOS": "windows",
+      "description": "Download devspaces.yml and k8.yml files and put it in the root of your project",
+      "commands": [{
+        "description": "",
+        "command": "cd C:\\your\\project\\root"
+      }],
+      "actionButton": {}
+    },
+    {
+      "stepNumber": 3,
+      "stepSummary": "Unzip the configuration files",
+      "icon": "/assets/instructions/pic-step-win-02.png",
+      "showOnOS": "windows",
+      "description": "Unzip the configuration files files into the root of your project",
+      "commands": [],
+      "actionButton": {}
+    },
+    {
+      "stepNumber": 4,
+      "stepSummary": "Update configuration files",
+      "icon": "/assets/instructions/pic-step-win-03.png",
+      "showOnOS": "windows",
+      "description": "Update devspaces.yml and k8.yml files, with the DevSpace details like name, docker image or Dockerfile, ports, environment variables, etc, using your favorite file editor",
+      "commands": [],
+      "actionButton": {}
+    },
+    {
+      "stepNumber": 5,
+      "stepSummary": "Create DevSpace",
+      "icon": "/assets/instructions/pic-step-win-04.png",
+      "showOnOS": "windows",
+      "description": "Open a command line to your project root and run",
+      "commands": [{
+        "description": "",
+        "command": "devspaces create"
+      }],
+      "actionButton": {}
+    }
+  ]
+}
