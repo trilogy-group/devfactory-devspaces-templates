@@ -3,7 +3,7 @@
   "subTitle": "Choose how you would like to create your DevSpace",
   "types": [{
     "id": "template",
-    "summary": "Start with one of our templatestest",
+    "summary": "Start with one of our templates",
     "icon": "fa-file-text-o",
     "highlightIcon": "",
     "isClickable": true,
