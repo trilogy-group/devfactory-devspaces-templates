@@ -3,11 +3,11 @@
   "subTitle": "",
   "steps": [{
     "stepNumber": 1,
-    "stepSummary": "Start1",
-    "description": "Start2 this DevSpace",
+    "stepSummary": "Start",
+    "description": "Start this DevSpace",
     "commands": [{
       "description": "",
-      "command": "devspaces start3 {devspacename}"
+      "command": "devspaces start {devspacename}"
     }]
   }, {
     "stepNumber": 2,
