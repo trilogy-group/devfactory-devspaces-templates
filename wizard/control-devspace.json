@@ -3,8 +3,8 @@
   "subTitle": "",
   "steps": [{
     "stepNumber": 1,
-    "stepSummary": "Start1",
-    "description": "Start2 this DevSpace Test",
+    "stepSummary": "Start",
+    "description": "Start this DevSpace",
     "commands": [{
       "description": "",
       "command": "devspaces start {devspacename}"
