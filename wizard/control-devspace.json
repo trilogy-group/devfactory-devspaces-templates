@@ -4,7 +4,7 @@
   "steps": [{
     "stepNumber": 1,
     "stepSummary": "Start",
-    "description": "Start this DevSpace",
+    "description": "Testing start this DevSpace",
     "commands": [{
       "description": "",
       "command": "devspaces start {devspacename}"
