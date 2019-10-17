@@ -1,0 +1,17 @@
+name: nodejs
+description: Ready to go environment for running applications on Node.js
+icon-file: nodejs-icon.png
+
+docker-file: Node_Dockerfile
+
+ports:
+  - protocol: http
+    port-number: 8080
+    description: web app http port
+    
+sync-ignore: |
+  .git
+  .idea
+  **/node_modules
+  .DS_Store
+  .data
