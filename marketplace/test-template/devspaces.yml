@@ -1,6 +1,6 @@
-name: spring-boot
+name: test-ds
 description: Environment for developing with Java, Spring and Gradle
-icon-file: java-logo-vector.png
+icon-file: Python-logo-notext.png
 
 docker-file: SpringBoot_Dockerfile
     
