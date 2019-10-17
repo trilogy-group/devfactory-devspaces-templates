@@ -29,5 +29,12 @@
     "highlightIcon": "fa-rocket",
     "isClickable": true,
     "url": "../instructions/kubernetes"
+  }, {
+    "id": "kubernetes - New",
+    "summary": "Start with your Kubernetes configuration",
+    "icon": "fa-file-text-o",
+    "highlightIcon": "fa-rocket",
+    "isClickable": true,
+    "url": "../instructions/kubernetes"
   }]
 }
