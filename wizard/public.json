@@ -53,7 +53,7 @@
 
     {
       "stepNumber": 1,
-      "stepSummary": "Run Client",
+      "stepSummary": "Run Client in your local environment",
       "icon": "/assets/instructions/pic-step-macos-01.png",
       "showOnOS": "macos",
       "description": "Make sure the DevSpaces Client is running on your machine",
