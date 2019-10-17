@@ -23,8 +23,8 @@
     "isClickable": true,
     "url": "../instructions/private"
   }, {
-    "id": "kubernetes2",
-    "summary": "Start with your Kubernetes new !!!!",
+    "id": "kubernetes",
+    "summary": "Start with your Kubernetes configuration",
     "icon": "fa-file-text-o",
     "highlightIcon": "fa-rocket",
     "isClickable": true,
