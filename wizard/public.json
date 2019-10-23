@@ -53,7 +53,7 @@
 
     {
       "stepNumber": 1,
-      "stepSummary": "Run Client",
+      "stepSummary": "Run Client to create your devspace",
       "icon": "/assets/instructions/pic-step-macos-01.png",
       "showOnOS": "macos",
       "description": "Make sure the DevSpaces Client is running on your machine",
@@ -97,6 +97,18 @@
       "commands": [{
         "description": "",
         "command": "devspaces create"
+      }],
+      "actionButton": {}
+    },
+    {
+      "stepNumber": 5,
+      "stepSummary": "Custom your DevSpace",
+      "icon": "/assets/instructions/pic-step-macos-01.png",
+      "showOnOS": "macos",
+      "description": "Open a command line to your project root and run",
+      "commands": [{
+        "description": "",
+        "command": "devspaces custom-command"
       }],
       "actionButton": {}
     },
