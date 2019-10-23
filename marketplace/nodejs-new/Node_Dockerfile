@@ -1,0 +1,10 @@
+# Pull alpine Linux image.
+FROM alpine:3.7
+
+# Install Node.js version 8.9.3
+RUN apk update
+RUN apk add 'nodejs>=8.9.3-r1'
+RUN apk add bash
+
+# Bind port 8080
+EXPOSE  8080
