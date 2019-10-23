@@ -1,0 +1,17 @@
+name: python
+description: Ready to go environment for developing with Python 3.6
+icon-file: Python-logo-notext.png
+
+docker-file: Python_Dockerfile
+
+ports:
+  - protocol: http
+    port-number: 8080
+    description: web app http port
+    
+sync-ignore: |
+  .git
+  .idea
+  **/node_modules
+  .DS_Store
+  .data
