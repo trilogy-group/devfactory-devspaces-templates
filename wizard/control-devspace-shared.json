@@ -3,7 +3,7 @@
   "subTitle": "",
   "steps": [{
     "stepNumber": 1,
-    "stepSummary": "Start the shared devspace",
+    "stepSummary": "Start",
     "description": "Start this DevSpace",
     "commands": [{
       "description": "",
