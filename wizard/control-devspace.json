@@ -43,8 +43,8 @@
     }]
   }, {
     "stepNumber": 6,
-    "stepSummary": "Unbind",
-    "description": "Unbind a local directory from a remote DevSpace",
+    "stepSummary": "Unbind your local folder",
+    "description": "Unbind a local directory from a remote DevSpace using the client",
     "commands": [{
       "description": "",
       "command": "devspaces unbind {devspacename}"
@@ -104,6 +104,14 @@
     "commands": [{
       "description": "",
       "command": "devspaces delete {devspacename}"
+    }]
+  }, {
+    "stepNumber": 14,
+    "stepSummary": "custom-command",
+    "description": "Custom commands for this DevSpace",
+    "commands": [{
+      "description": "",
+      "command": "devspaces custom-command {devspacename}"
     }]
   }]
 }

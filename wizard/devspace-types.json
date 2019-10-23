@@ -29,5 +29,12 @@
     "highlightIcon": "fa-rocket",
     "isClickable": true,
     "url": "../instructions/kubernetes"
+  }, {
+    "id": "kubernetes2",
+    "summary": "Start with your new Kubernetes version 2",
+    "icon": "fa-file",
+    "highlightIcon": "",
+    "isClickable": true,
+    "url": "../instructions/kubernetes"
   }]
 }
