@@ -3,7 +3,7 @@
   "subTitle": "A DevSpace can be created from a docker image using the command line interface",
   "steps": [{
       "stepNumber": 1,
-      "stepSummary": "Run Client using",
+      "stepSummary": "Run Client",
       "icon": "/assets/instructions/pic-step-linux-01.png",
       "showOnOS": "linux",
       "description": "Make sure the DevSpaces Client is running on your machine",
@@ -53,7 +53,7 @@
 
     {
       "stepNumber": 1,
-      "stepSummary": "Run Client using our amazing client",
+      "stepSummary": "Run Client",
       "icon": "/assets/instructions/pic-step-macos-01.png",
       "showOnOS": "macos",
       "description": "Make sure the DevSpaces Client is running on your machine",
@@ -97,18 +97,6 @@
       "commands": [{
         "description": "",
         "command": "devspaces create"
-      }],
-      "actionButton": {}
-    },
-    {
-      "stepNumber": 5,
-      "stepSummary": "Download new DevSpace config",
-      "icon": "/assets/instructions/pic-step-macos-02.png",
-      "showOnOS": "macos",
-      "description": "Open a command line to your project root and run",
-      "commands": [{
-        "description": "",
-        "command": "devspaces my-command"
       }],
       "actionButton": {}
     },
