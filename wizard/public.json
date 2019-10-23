@@ -50,6 +50,18 @@
       }],
       "actionButton": {}
     },
+    {
+      "stepNumber": 5,
+      "stepSummary": "Test DevSpace",
+      "icon": "/assets/instructions/pic-step-linux-02.png",
+      "showOnOS": "linux",
+      "description": "Testing to see if it works",
+      "commands": [{
+        "description": "",
+        "command": "devspaces test"
+      }],
+      "actionButton": {}
+    },
 
     {
       "stepNumber": 1,
