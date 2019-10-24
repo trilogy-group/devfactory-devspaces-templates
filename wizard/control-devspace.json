@@ -3,7 +3,7 @@
   "subTitle": "",
   "steps": [{
     "stepNumber": 1,
-    "stepSummary": "Start a DevSpace with a command",
+    "stepSummary": "Start",
     "description": "Start this DevSpace",
     "commands": [{
       "description": "",
