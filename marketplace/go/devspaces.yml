@@ -1,8 +1,8 @@
-name: python
-description: Ready to go environment for developing with Python 3.6
-icon-file: Python-logo-notext.png
+name: go
+description: Ready to go environment for running applications on go
+icon-file: nodejs-icon.png
 
-docker-file: Python_Dockerfile
+docker-file: Node_Dockerfile
 
 ports:
   - protocol: http
