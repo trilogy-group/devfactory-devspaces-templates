@@ -53,7 +53,7 @@
 
     {
       "stepNumber": 1,
-      "stepSummary": "Run Client with a public image",
+      "stepSummary": "Run Client",
       "icon": "/assets/instructions/pic-step-macos-01.png",
       "showOnOS": "macos",
       "description": "Make sure the DevSpaces Client is running on your machine",
@@ -100,18 +100,7 @@
       }],
       "actionButton": {}
     },
-    {
-      "stepNumber": 5,
-      "stepSummary": "Run your own DevSpace command",
-      "icon": "/assets/instructions/pic-step-macos-02.png",
-      "showOnOS": "macos",
-      "description": "Open a command line to your project root and run",
-      "commands": [{
-        "description": "",
-        "command": "devspaces own-command"
-      }],
-      "actionButton": {}
-    },
+
     {
       "stepNumber": 1,
       "stepSummary": "Run Client",

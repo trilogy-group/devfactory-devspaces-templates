@@ -3,7 +3,7 @@
   "subTitle": "",
   "steps": [{
     "stepNumber": 1,
-    "stepSummary": "Start with a DevSpace",
+    "stepSummary": "Start",
     "description": "Start this DevSpace",
     "commands": [{
       "description": "",
@@ -104,14 +104,6 @@
     "commands": [{
       "description": "",
       "command": "devspaces delete {devspacename}"
-    }]
-  }, {
-    "stepNumber": 14,
-    "stepSummary": "own-command",
-    "description": "Run your own command on this DevSpace",
-    "commands": [{
-      "description": "",
-      "command": "devspaces own-command {devspacename}"
     }]
   }]
 }
