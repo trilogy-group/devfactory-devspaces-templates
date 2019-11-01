@@ -105,8 +105,7 @@
       "description": "",
       "command": "devspaces delete {devspacename}"
     }]
-  },
-  , {
+  }, {
     "stepNumber": 14,
     "stepSummary": "own-command",
     "description": "Run your own command on this DevSpace",
