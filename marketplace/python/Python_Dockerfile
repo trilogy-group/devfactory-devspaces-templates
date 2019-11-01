@@ -1,15 +1,9 @@
 # Pull alpine Linux image.
 FROM alpine:3.7
 
-<<<<<<< HEAD:marketplace/go/Node_Dockerfile
-# Install Python version 3
-RUN apk update
-RUN apk add python3
-=======
 # Install Python version 3.6.5
 RUN apk update
 RUN apk add python3=3.6.8-r0
->>>>>>> parent of 8db51dc... Changes for demo purposes:marketplace/python/Python_Dockerfile
 RUN apk add bash
 RUN ln -s /usr/bin/python3 /usr/bin/python
 
