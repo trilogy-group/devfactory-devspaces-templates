@@ -44,6 +44,9 @@
       "commands": [{
         "description": "",
         "command": "devspaces create"
+      }, {
+        "description": "Create a DevSpace and assign to a team",
+        "command": "devspaces create -t [team id]"
       }],
       "actionButton": {}
     },
@@ -90,6 +93,9 @@
       "commands": [{
         "description": "",
         "command": "devspaces create"
+      }, {
+        "description": "Create a DevSpace and assign to a team",
+        "command": "devspaces create -t [team id]"
       }],
       "actionButton": {}
     },
@@ -136,6 +142,9 @@
       "commands": [{
         "description": "",
         "command": "devspaces create"
+      }, {
+        "description": "Create a DevSpace and assign to a team",
+        "command": "devspaces create -t [team id]"
       }],
       "actionButton": {}
     }
