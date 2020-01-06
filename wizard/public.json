@@ -46,10 +46,7 @@
       "description": "Open a command line to your project root and run",
       "commands": [{
         "description": "",
-        "command": "devspaces create"
-      }, {
-        "description": "",
-        "command": "devspaces create -t [team id]"
+        "command": "devspaces create [--team <team_id>]"
       }],
       "actionButton": {}
     },
@@ -99,10 +96,7 @@
       "description": "Open a command line to your project root and run",
       "commands": [{
         "description": "",
-        "command": "devspaces create"
-      }, {
-        "description": "",
-        "command": "devspaces create -t [team id]"
+        "command": "devspaces create [--team <team_id>]"
       }],
       "actionButton": {}
     },
@@ -152,10 +146,7 @@
       "description": "Open a command line to your project root and run",
       "commands": [{
         "description": "",
-        "command": "devspaces create"
-      }, {
-        "description": "",
-        "command": "devspaces create -t [team id]"
+        "command": "devspaces create [--team <team_id>]"
       }],
       "actionButton": {}
     }
