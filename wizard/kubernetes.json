@@ -147,7 +147,10 @@
         "description": "",
         "command": "cd C:\\your\\project\\root"
       }],
-      "actionButton": {}
+      "actionButton": {
+        "label": "Get Configuration Files",
+        "url": "kubernetes/devspaces.zip"
+      }
     },
     {
       "stepNumber": 3,
