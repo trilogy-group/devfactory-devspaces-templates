@@ -89,13 +89,5 @@
       "description": "",
       "command": "devspaces get-config {devspacename}"
     }]
-  }, {
-    "stepNumber": 12,
-    "stepSummary": "Rename",
-    "description": "Rename this DevSpace",
-    "commands": [{
-      "description": "",
-      "command": "devspaces rename {devspacename} [new name]"
-    }]
   }]
 }
