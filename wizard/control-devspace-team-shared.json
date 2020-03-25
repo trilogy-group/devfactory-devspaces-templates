@@ -1,0 +1,93 @@
+{
+  "title": "Control this DevSpace with the DevSpaces client",
+  "subTitle": "",
+  "steps": [{
+    "stepNumber": 1,
+    "stepSummary": "Start",
+    "description": "Start this DevSpace",
+    "commands": [{
+      "description": "",
+      "command": "devspaces start {devspacename}"
+    }]
+  }, {
+    "stepNumber": 2,
+    "stepSummary": "Stop",
+    "description": "Stop this DevSpace",
+    "commands": [{
+      "description": "",
+      "command": "devspaces stop {devspacename}"
+    }]
+  }, {
+    "stepNumber": 3,
+    "stepSummary": "Restart",
+    "description": "Restart this DevSpace",
+    "commands": [{
+      "description": "",
+      "command": "devspaces restart {devspacename}"
+    }]
+  }, {
+    "stepNumber": 4,
+    "stepSummary": "Exec",
+    "description": "Execute a command within this DevSpace (e.g.: /bin/bash)",
+    "commands": [{
+      "description": "",
+      "command": "devspaces exec {devspacename} [pod name] [container name]"
+    }]
+  }, {
+    "stepNumber": 5,
+    "stepSummary": "Bind",
+    "description": "Bind a local directory to a remote DevSpace",
+    "commands": [{
+      "description": "",
+      "command": "devspaces bind {devspacename}"
+    }]
+  }, {
+    "stepNumber": 6,
+    "stepSummary": "Unbind",
+    "description": "Unbind a local directory from a remote DevSpace",
+    "commands": [{
+      "description": "",
+      "command": "devspaces unbind {devspacename}"
+    }]
+  }, {
+    "stepNumber": 7,
+    "stepSummary": "Info",
+    "description": "Retrieve DevSpace general information",
+    "commands": [{
+      "description": "",
+      "command": "devspaces info {devspacename}"
+    }]
+  }, {
+    "stepNumber": 8,
+    "stepSummary": "Share",
+    "description": "Share this DevSpace with some other DevSpace user",
+    "commands": [{
+      "description": "",
+      "command": "devspaces share {devspacename}"
+    }]
+  }, {
+    "stepNumber": 9,
+    "stepSummary": "Update",
+    "description": "Update this DevSpace setup",
+    "commands": [{
+      "description": "",
+      "command": "devspaces update"
+    }]
+  }, {
+    "stepNumber": 10,
+    "stepSummary": "Set-Env",
+    "description": "Retrieve current environment variable configuration or update them",
+    "commands": [{
+      "description": "",
+      "command": "devspaces set-env"
+    }]
+  }, {
+    "stepNumber": 11,
+    "stepSummary": "Pull configuration",
+    "description": "Pull the configuration for this DevSpace",
+    "commands": [{
+      "description": "",
+      "command": "devspaces get-config {devspacename}"
+    }]
+  }]
+}
