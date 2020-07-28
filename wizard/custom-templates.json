@@ -60,7 +60,8 @@
       "commands": [],
       "actionButton": {
         "label": "Get Client",
-        "url": "/devspaces/download"
+        "url": "/devspaces/download",
+        "relative": true
       }
     },
     {
@@ -109,7 +110,8 @@
       "commands": [],
       "actionButton": {
         "label": "Get Client",
-        "url": "/devspaces/download"
+        "url": "/devspaces/download",
+        "relative": true
       }
     },
     {
